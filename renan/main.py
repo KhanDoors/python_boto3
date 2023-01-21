@@ -79,3 +79,8 @@ def cube(number):
 
 func_list = [cube(n) for n in numbers if n > 3]
 print(func_list)
+
+
+word = "movie"
+sliced = word[::-1]
+print(sliced)
